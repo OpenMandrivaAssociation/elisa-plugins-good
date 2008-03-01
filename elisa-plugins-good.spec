@@ -1,6 +1,6 @@
 %define debug_package	%{nil}
 %define svn	0
-%define pre	rc1
+%define pre	rc3
 %if %svn
 %define release	%mkrel 0.%svn.1
 %else
@@ -11,7 +11,7 @@
 %endif
 %endif
 
-%define fversion	0.3.4.rc1
+%define fversion	%{version}.%{pre}
 
 Summary:	'Good' plugins for the Elisa media center
 Name:		elisa-plugins-good
@@ -27,7 +27,7 @@ Source0:	http://elisa.fluendo.com/static/download/elisa/%{name}-%{version}.%{pre
 Source0:	http://elisa.fluendo.com/static/download/elisa/%{name}-%{version}.tar.gz
 %endif
 %endif
-License:	GPLv3 and MIT
+License:	GPLv3
 Group:		Development/Python
 URL:		http://elisa.fluendo.com/
 BuildArch:	noarch
