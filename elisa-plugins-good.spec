@@ -7,7 +7,7 @@
 %if %pre
 %define release %mkrel 0.%pre.1
 %else
-%define release	%mkrel 2
+%define release	%mkrel 3
 %endif
 %endif
 
@@ -59,9 +59,6 @@ plugins for Elisa.
 %setup -q
 %endif
 %endif
-# We don't want the auto-updater... - AdamW 2008/03
-rm -rf elisa-plugins/elisa/plugins/elisa_updater
-sed -i -e 's,updater = elisa.plugins.elisa_updater,,g' elisa_plugins_good.egg-info/entry_points.txt
 
 %build
 
