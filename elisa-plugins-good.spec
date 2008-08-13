@@ -1,6 +1,6 @@
 %define debug_package	%{nil}
 
-%define rel	2
+%define rel	1
 
 %define svn	0
 %define pre	0
@@ -22,7 +22,7 @@
 
 Summary:	'Good' plugins for the Elisa media center
 Name:		elisa-plugins-good
-Version:	0.5.3
+Version:	0.5.5
 Release:	%{release}
 # For SVN:
 # svn co https://code.fluendo.com/elisa/svn/trunk elisa
