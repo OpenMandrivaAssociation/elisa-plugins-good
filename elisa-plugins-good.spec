@@ -22,14 +22,11 @@
 
 Summary:	'Good' plugins for the Elisa media center
 Name:		elisa-plugins-good
-Version:	0.5.19
+Version:	0.5.20
 Release:	%{release}
 # For SVN:
 # svn co https://code.fluendo.com/elisa/svn/trunk elisa
 Source0:	http://elisa.fluendo.com/static/download/elisa/%{distname}
-# Disable irrelevant plugins (now we can't do it in core...) - AdamW
-# 2008/10
-Patch0:		elisa-plugins-good-0.5.16-unneeded.patch
 License:	GPLv3
 Group:		Development/Python
 URL:		http://elisa.fluendo.com/
@@ -56,7 +53,6 @@ plugins for Elisa.
 
 %prep
 %setup -q -n %{dirname}
-#patch0 -p1 -b .unneeded
 
 %build
 
