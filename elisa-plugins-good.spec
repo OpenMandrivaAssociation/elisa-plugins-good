@@ -22,7 +22,7 @@
 
 Summary:	'Good' plugins for the Elisa media center
 Name:		elisa-plugins-good
-Version:	0.5.35
+Version:	0.5.37
 Release:	%{release}
 # For SVN:
 # svn co https://code.fluendo.com/elisa/svn/trunk elisa
