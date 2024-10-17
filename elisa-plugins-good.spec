@@ -29,7 +29,7 @@ Release:	%{release}
 Source0:	http://elisa.fluendo.com/static/download/elisa/%{distname}
 License:	GPLv3
 Group:		Development/Python
-URL:		http://elisa.fluendo.com/
+URL:		https://elisa.fluendo.com/
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	python
